@@ -1,0 +1,52 @@
+body{
+    font-size: 16px;
+    color: #000000;
+}
+#header-nav{
+    background-color: rgb(151, 150, 150);
+    font-size: 2em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border: 1px solid #070707;
+}
+.navbar-header button.navbar-toggle{
+    clear: both;    
+}
+#collapsable-nav li{
+    background-color: white;
+    font-size: .8em;
+    border-bottom: 2px solid rgb(151, 150, 150);
+}
+#our-menu-title{
+    margin-bottom: 50px;
+}
+#chicken-title, #beef-title, #sushi-title{
+    border: 1px solid black;
+    background-color: rgb(151, 150, 150);
+}
+@media(min-width:1200px){
+    .container #chicken-title, .container #beef-title, .container #sushi-title{
+    width: 350px;
+    margin: 0 20px 15px;
+    }
+}
+
+@media(min-width:992px) and (max-width:1999px){
+    #chicken-title, #beef-title{
+        width:450px;
+        margin: 0 16px 32px;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px){
+    #chicken-title, #beef-title, #sushi-title{
+        margin: 0 auto 16px;
+    }
+}
+@media(max-width:767px){
+    #chicken-title, #beef-title, #sushi-title{
+        width:360px;
+        margin: 0 auto 16px;
+
+    }
+}
